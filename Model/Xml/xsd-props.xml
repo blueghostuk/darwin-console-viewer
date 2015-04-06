@@ -1,0 +1,19 @@
+﻿<!-- get XSD files from http://wiki.openraildata.com/index.php/Darwin:Push_Port_XML_Schemas -->
+<!-- generate using xsd.exe /parameters:<path to this file>/xsd-props.xml -->
+<!-- this will generate a file "rttiPPTTrainOrder_v1.cs", it has been renamed to "rtti.cs" -->
+<xsd xmlns='http://microsoft.com/dotnet/tools/xsd/'>
+  <generateClasses language='CS' namespace='Trainwebsites.Darwin.Model.Xml'>
+    <schema>rttiCTTReferenceSchema_v3.xsd</schema>
+    <schema>rttiCTTSchema_v8.xsd</schema>
+    <schema>rttiPPTAlarms_v1.xsd</schema>
+    <schema>rttiPPTCommonTypes_v1.xsd</schema>
+    <schema>rttiPPTForecasts_v2.xsd</schema>
+    <schema>rttiPPTSchedules_v1.xsd</schema>
+    <schema>rttiPPTSchema_v12.xsd</schema>
+    <schema>rttiPPTStationMessages_v1.xsd</schema>
+    <schema>rttiPPTStatus_v1.xsd</schema>
+    <schema>rttiPPTTDData_v1.xsd</schema>
+    <schema>rttiPPTTrainAlerts_v1.xsd</schema>
+    <schema>.\rttiPPTTrainOrder_v1.xsd</schema>
+  </generateClasses>
+</xsd>
